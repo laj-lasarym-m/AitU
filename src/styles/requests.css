@@ -1,0 +1,21 @@
+.request-data-controls { margin: -6px 0 18px; }
+.request-source-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.request-source-row .db-filters { margin: 0; }
+.request-refresh { display: inline-flex; align-items: center; gap: 7px; border: 1px solid var(--db-border); border-radius: 9px; padding: 9px 12px; background: var(--db-surface); color: var(--db-purple); font: inherit; font-size: 13px; }
+.request-refresh:disabled { opacity: .6; cursor: wait; }
+.request-state-note { margin: 9px 0 0 !important; color: var(--db-muted); font-size: 12px; }
+.request-draft-note { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; padding: 12px; margin-top: 12px; border: 1px solid var(--db-border); border-radius: 10px; color: var(--db-muted); background: var(--db-lavender); font-size: 13px; }
+.request-draft-note a, .request-draft-note button { color: var(--db-purple); }
+.request-draft-note button { border: 0; background: none; font: inherit; margin-left: auto; }
+.request-deferred { display: grid; place-items: center; min-height: 120px; padding: 16px; border: 1px solid var(--db-border); border-radius: 10px; background: var(--db-bg); color: var(--db-muted); font-size: 13px; line-height: 1.6; text-align: center; }
+.request-created-label { color: var(--db-muted); font-size: 12px; margin: 12px 0 !important; }
+.request-create-dialog.auth-page { min-height: 0; width: min(520px, calc(100vw - 28px)); max-height: calc(100svh - 32px); margin: auto; padding: 0; border: 0; border-radius: 22px; overflow-y: auto; }
+.request-create-dialog::backdrop { background: #15102099; }
+.request-create-dialog .auth-card { max-width: none; text-align: left; }
+.request-create-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 20px; }
+.request-create-heading h2 { font-size: 22px; }
+.request-create-heading button { border: 0; background: none; color: var(--auth-muted); padding: 5px; }
+.request-create-description { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 14px; line-height: 1.6; color: var(--auth-muted); max-height: 160px; overflow-y: auto; }
+.request-create-actions { display: flex; flex-direction: column; gap: 12px; }
+.request-workflow-note { font-size: 12px; line-height: 1.6; color: var(--db-muted); }
+.authority-modal-form input[type='text'] { width: 100%; border: 1px solid var(--db-border); border-radius: 8px; padding: 11px 12px; background: var(--db-surface); color: var(--db-text); font: inherit; }

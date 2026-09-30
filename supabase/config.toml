@@ -1,0 +1,7 @@
+project_id = "aitu"
+
+[functions.analyze-request]
+verify_jwt = true
+
+[functions.citizen-assistant]
+verify_jwt = true

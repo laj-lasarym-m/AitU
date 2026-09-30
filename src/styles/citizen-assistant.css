@@ -1,0 +1,10 @@
+.dashboard .citizen-chat { max-width: 900px; display: grid; gap: 18px; padding: 24px; }
+.dashboard .citizen-chat-history { display: grid; gap: 14px; max-height: 52vh; overflow-y: auto; padding: 2px; }
+.dashboard .citizen-chat-message { background: var(--db-lavender); border-radius: 12px; padding: 14px; max-width: 90%; white-space: pre-wrap; overflow-wrap: anywhere; }
+.dashboard .citizen-chat-message.from-user { justify-self: end; background: var(--db-bg); border: 1px solid var(--db-border); }
+.dashboard .citizen-chat-message strong { display: block; margin-bottom: 6px; font-size: 13px; color: var(--db-muted); }
+.dashboard .citizen-chat-form { display: flex; align-items: end; gap: 12px; }
+.dashboard .citizen-chat-form textarea { width: 100%; min-width: 0; resize: vertical; padding: 12px; border: 1px solid var(--db-border); border-radius: 10px; background: var(--db-bg); color: var(--db-text); font: inherit; }
+.dashboard .citizen-chat-form button { border: 0; }
+.dashboard .citizen-chat-form button:disabled { opacity: .55; }
+@media (max-width: 600px) { .dashboard .citizen-chat { padding: 16px; } .dashboard .citizen-chat-form { flex-direction: column; align-items: stretch; } }
